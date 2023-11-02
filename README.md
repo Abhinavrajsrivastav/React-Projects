@@ -18,20 +18,23 @@ Welcome to my collection of small React-based projects! This repository contains
 
 ## Projects
 
-### Project Name
+###<h3 id="projects">Source Code</h3>
 
-0.Musics app
-1.Increment Using use state
+<p>0.Musics app</p><br>
+<p>1.Increment Using use state</p>
 
 **Source Code:** 
+<link src="https://github.com/Abhinavrajsrivastav/React-Projects.git">Click here</link>
 
-## Getting Started
+## <h3 id="getting-started">Getting Started</h3>
 
 If you want to explore these projects on your local machine, you can follow these steps:
 
+##<h3 id="contributing">Contributing</h3>
+
 1. Clone this repository:
    
-git clone https://github.com/your-username/react-projects-showcase.git
+git clone https://github.com/Abhinavrajsrivastav/React-Projects.git
 
 2. cd react-projects-showcase
 
@@ -50,3 +53,5 @@ Push your changes to your fork:
 git push origin feature/your-feature
 
 Create a pull request to the main repository 🚀.
+
+<p>This repository is belogs to @Abhinavrajsrivastav </p>
