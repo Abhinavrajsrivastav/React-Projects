@@ -1,0 +1,22 @@
+
+.Mysics-item{
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-gap: 10px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(17, 17, 212);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #05278c;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+    
