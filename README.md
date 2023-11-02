@@ -54,5 +54,5 @@ git push origin feature/your-feature
 
 Create a pull request to the main repository 🚀.
 
-<p id="licence" style="text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">This repository belongs to @Abhinavrajsrivastav</p>
+<p id="licence" style="text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: Black; font-size: bold;">This repository belongs to @Abhinavrajsrivastav</p>
 
