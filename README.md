@@ -1,7 +1,7 @@
 # React-Projects
 In this repository React small small projects will be share.
 
-# My React Projects - 0
+# My React Projects
 
 Welcome to my collection of small React-based projects! This repository contains a variety of mini-projects and demos that showcase different aspects of React development.
 
@@ -20,12 +20,11 @@ Welcome to my collection of small React-based projects! This repository contains
 
 ###<h3 id="projects">Source Code</h3>
 
-<p>0.Musics app</p><br>
-<p>1.Increment Using use state</p>
+<p>1.Musics app</p><br>
+<p>1=2.Increment Using use state</p>
 
 **Source Code:** 
-<link src="https://github.com/Abhinavrajsrivastav/React-Projects.git">Click here</link>
-
+src="https://github.com/Abhinavrajsrivastav/React-Projects.git
 ## <h3 id="getting-started">Getting Started</h3>
 
 If you want to explore these projects on your local machine, you can follow these steps:
