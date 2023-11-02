@@ -30,7 +30,7 @@ src="https://github.com/Abhinavrajsrivastav/React-Projects.git
 
 If you want to explore these projects on your local machine, you can follow these steps:
 
-##<h3 id="contributing">Contributing</h3>
+<h3 id="contributing">Contributing</h3>
 
 1. Clone this repository:
    
