@@ -6,7 +6,8 @@ In this repository React small small projects will be share.
 Welcome to my collection of small React-based projects! This repository contains a variety of mini-projects and demos that showcase different aspects of React development.
 
 <div align="center">
-  <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="React Logo">
+  <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="React Logo" style="height: 200px; width: 200px;">
+
 </div>
 
 ## Table of Contents
@@ -18,10 +19,10 @@ Welcome to my collection of small React-based projects! This repository contains
 
 ## Projects
 
-###<h3 id="projects">Source Code</h3>
+<h3 id="projects">Source Code</h3>
 
 <p>1.Musics app</p><br>
-<p>1=2.Increment Using use state</p>
+<p>2.Increment Using use state</p>
 
 **Source Code:** 
 src="https://github.com/Abhinavrajsrivastav/React-Projects.git
