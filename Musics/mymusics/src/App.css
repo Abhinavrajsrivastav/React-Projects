@@ -1,22 +1,70 @@
 
-.Mysics-item{
-    display: grid;
-    grid-template-columns: .5fr .5fr .5fr;
-    grid-gap: 10px;
-    padding: 0;
-    margin: 0;
+.container{
+   display: flex;
+   flex-wrap: row wrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+    
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    }
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: auto;
+    height: 12vh;
+    background-color: rgb(37, 26, 26);
+    }
+
+    .navBar button{
+        width: 10%;
+        height: auto;
+        margin: 1%;
+        padding: 1%;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000000;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        cursor: pointer;
+        border-radius: 38px;
+        transition: all 0.5s ease-in-out;
+        scale: .8;
+        }
+
+    .navBar button:hover{
+        transform: scale(1.1);
+        }
+ 
+
+
+
+.Mysics-item {
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr 0.6fr;
+    grid-gap: 10px;
+    align-content: start;
     font-size: 1.2rem;
     font-weight: bold;
     color: #fff;
-    background-color: rgb(17, 17, 212);
-    border-radius: 10px;
-    box-shadow: 0 0 10px #05278c;
-    padding: 10px;
-    margin: 10px;
+    background-color: #000000eb;
+    padding: 0;
+    margin: 0;
     cursor: pointer;
-}
+    width: auto;
+    height: 100vh;
+    }
+
+
+
+
 
     

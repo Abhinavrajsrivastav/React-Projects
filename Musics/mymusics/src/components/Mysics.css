@@ -1,14 +1,13 @@
 h1{
-    color: red;
+    color: rgb(245, 241, 241);
     font-size: large;
 }
 
 .song-img{
-    width: 30%;
-    height: 30%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #8c2121;
-    padding: 10px;
+    width: 60%;
+    height: auto;
+    padding: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 10px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
@@ -16,4 +15,9 @@ h1{
 
 .song-img:hover{
     transform: scale(1.1);
+}
+
+.song-img img{
+    width: 50%;
+    height: auto;
 }
