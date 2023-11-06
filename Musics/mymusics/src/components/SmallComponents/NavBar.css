@@ -1,0 +1,51 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: auto;
+    height: 12vh;
+    background-color: #164863;
+    }
+
+    .navBar button{
+        width: 10%;
+        height: auto;
+        margin: 1%;
+        padding: 1%;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000000;
+        cursor: pointer;
+        border-radius: 38px;
+        transition: all 0.5s ease-in-out;
+        scale: .8;
+        }
+
+    .navBar button:hover{
+        transform: scale(1.1);
+        }
+
+@media(max-width: 1160px) and (min-width: 375px){
+    .navBar button{
+        width: 50px;
+        height: 20px;
+        /* margin: 1%; */
+        padding: 1%;
+        font-size: .5rem;
+        font-weight: bold;
+        color: #000000;
+        cursor: pointer;
+        border-radius: 38px;
+        transition: all 0.5s ease-in-out;
+        scale: .8;
+        }
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: auto;
+    height: 8vh;
+    background-color: #164863;
+    }
+}

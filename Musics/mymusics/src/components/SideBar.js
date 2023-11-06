@@ -25,7 +25,6 @@ const menu = [
 export const SideBar = () => {
   return (
     <div className="sideBar">
-      
           <div className="brand">
              <img src='./imges/Spotify_App_Logo.svg.png'></img>
              <h3>Sportify</h3>
@@ -38,6 +37,10 @@ export const SideBar = () => {
              <Meenu img={menu[3].img} title={menu[3].title}/> 
           </div>
 
+          <div className="imgUpdate">
+            <img src="./imges/besab.jpg"></img>
+          </div>
+           
          </div>
   )
 }

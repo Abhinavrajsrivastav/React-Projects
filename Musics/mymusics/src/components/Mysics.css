@@ -1,23 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 h1{
     color: rgb(245, 241, 241);
     font-size: large;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.song-img{
-    width: 60%;
+.Mysics{
+    width: 20vh;
     height: auto;
+    gap: 1.2rem;
+    background-color: #201f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2rem;
+    margin: 1rem;
+    transition: -1.3s ease-in-out;
+    border-radius: 12px;
+}
+
+.Mysics:hover{
+  opacity: 1.5;
+  box-shadow: 5px 8px 40px 8px rgba(0, 0.4, 0.8, 0.4);
+  background-color: #2f2c2c;
+}
+
+
+.Mysics .song-img {
+  height: 126px;
+  width: auto;
+  border-radius: 12px;
+}
+
+.Mysics h1 {
+  margin:2px 0;
+  padding: 2px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 1160px) and (min-width: 375px) {
+  .Mysics {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; /* "start" is not a valid value for justify-content; use "flex-start" instead */
+    /* scale: 0.5; (not sure what you intend to do with "scale") */
+    width: 126px;
+    height: auto;
+    margin-left: 5%;
+    padding: 0;
+  }
+
+  .Mysics .song-img {
+    height: 100px;
+    width: auto;
+    border-radius: 12px;
+    /* scale: 0.5; (not sure what you intend to do with "scale") */
+    margin-top: 8%;
+    /* margin: 2%; (remove this line, as it may conflict with "margin-top") */
     padding: 10%;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 10px;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-}
+  }
 
-.song-img:hover{
-    transform: scale(1.1);
-}
+  .Mysics h1 {
+    margin: 2px 0;
+    padding: 2px;
+    font-family: 'Ubuntu', sans-serif;
+  }
 
-.song-img img{
-    width: 50%;
-    height: auto;
+  .Mysics p {
+    margin: 2px 0;
+    padding: 2px;
+    font-family: 'Ubuntu', sans-serif;
+  }
 }
