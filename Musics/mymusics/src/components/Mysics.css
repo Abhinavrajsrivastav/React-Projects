@@ -8,7 +8,7 @@ h1{
 .Mysics{
     width: 20vh;
     height: auto;
-    gap: 1.2rem;
+    /* gap: 1.2rem; */
     background-color: #201f1f;
     display: flex;
     flex-direction: column;
@@ -38,37 +38,40 @@ h1{
   font-family: 'Ubuntu', sans-serif;
 }
 
-@media (max-width: 1160px) and (min-width: 375px) {
+@media (max-width: 1160px) and (min-width: 300px) {
   .Mysics {
     display: flex;
     flex-direction: column;
-    justify-content: start; /* "start" is not a valid value for justify-content; use "flex-start" instead */
+    justify-content: center; /* "start" is not a valid value for justify-content; use "flex-start" instead */
+    gap: -1rem;
     /* scale: 0.5; (not sure what you intend to do with "scale") */
-    width: 126px;
+    width: 100px;
     height: auto;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     padding: 0;
   }
 
   .Mysics .song-img {
-    height: 100px;
-    width: auto;
-    border-radius: 12px;
-    /* scale: 0.5; (not sure what you intend to do with "scale") */
-    margin-top: 8%;
-    /* margin: 2%; (remove this line, as it may conflict with "margin-top") */
-    padding: 10%;
+    height: 65px;
+    width: 65px;
+    border-radius: 67px;
+    margin-top: -4%;
+    padding: 12%;
   }
 
   .Mysics h1 {
-    margin: 2px 0;
-    padding: 2px;
+    margin: 0px 0;
+    padding-left: 14px;
+    position: relative;
+    top: -5px;
+    font-size: .8rem;
     font-family: 'Ubuntu', sans-serif;
   }
 
   .Mysics p {
-    margin: 2px 0;
+    margin: 10px 0;
     padding: 2px;
+    font-size: .8rem;
     font-family: 'Ubuntu', sans-serif;
   }
 }

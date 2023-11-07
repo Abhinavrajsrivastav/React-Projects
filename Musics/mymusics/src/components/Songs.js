@@ -54,7 +54,77 @@ const Songs = [
         SongName: "Bol Do Na Zara",
         artist: "Aramn Malik",
         image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do.mp3"
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
+    },
+    {
+         id: 7,
+        SongName: "Bol Do Na Zara",
+        artist: "Aramn Malik",
+        image: "./imges/bol_do.jpg",
+        src: "./musics/bol_do_na.mp3"
     }
 ]
 
