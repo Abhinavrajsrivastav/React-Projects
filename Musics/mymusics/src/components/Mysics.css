@@ -9,7 +9,7 @@ h1{
     width: 20vh;
     height: auto;
     /* gap: 1.2rem; */
-    background-color: #201f1f;
+    background-color: rgb(0,0,0,.5);
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -22,7 +22,7 @@ h1{
 .Mysics:hover{
   opacity: 1.5;
   box-shadow: 5px 8px 40px 8px rgba(0, 0.4, 0.8, 0.4);
-  background-color: #2f2c2c;
+  background-color: rgba(20, 50, 20, 0.7);
 }
 
 
@@ -33,45 +33,41 @@ h1{
 }
 
 .Mysics h1 {
-  margin:2px 0;
   padding: 2px;
   font-family: 'Ubuntu', sans-serif;
+  position: relative;
 }
 
 @media (max-width: 1160px) and (min-width: 300px) {
   .Mysics {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* "start" is not a valid value for justify-content; use "flex-start" instead */
-    gap: -1rem;
-    /* scale: 0.5; (not sure what you intend to do with "scale") */
-    width: 100px;
-    height: auto;
-    /* margin-left: 5%; */
+    justify-content: flex-start;
+    gap: 1rem; /* Changed gap value to a positive value */
+    max-width: 100%; /* Ensures the content does not exceed the viewport width */
     padding: 0;
   }
 
   .Mysics .song-img {
-    height: 65px;
-    width: 65px;
-    border-radius: 67px;
-    margin-top: -4%;
-    padding: 12%;
+    height: 130px; /* Allow the image to adjust its height to its content */
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    border-radius: 23px;
+    margin: 4%;
+    padding: 4%;
   }
 
   .Mysics h1 {
-    margin: 0px 0;
+    margin: 0;
     padding-left: 14px;
-    position: relative;
-    top: -5px;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-family: 'Ubuntu', sans-serif;
   }
 
   .Mysics p {
-    margin: 10px 0;
+    /* margin: 10px 0; */
     padding: 2px;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-family: 'Ubuntu', sans-serif;
   }
 }
+

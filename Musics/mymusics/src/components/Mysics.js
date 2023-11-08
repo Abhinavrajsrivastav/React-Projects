@@ -26,7 +26,6 @@ function Mysics(data) {
       <img src={data.img} className="song-img" onClick={playSong} alt="Play" />
       <div>
         <h1>{data.songName}</h1>
-        <h1>{data.Artist}</h1>
       </div>
     </div>
   );

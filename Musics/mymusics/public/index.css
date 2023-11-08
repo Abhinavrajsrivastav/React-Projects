@@ -1,12 +1,14 @@
 body {
-    /* background-image: url("./assets/layered-steps-haikei.png"); */
-    background-color: black;
+    background-image: url("./imges/ai.jpg");
+    opacity: .8;
+    /* background-color: black; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
+    
     /* display: flex; */
     /* height: 100vh; */
 }

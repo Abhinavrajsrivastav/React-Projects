@@ -38,7 +38,7 @@ export const SideBar = () => {
           </div>
 
           <div className="imgUpdate">
-            <img src="./imges/arman.jpg"></img>
+            <img src="./imges/ai4.png"></img>
           </div>
            
          </div>

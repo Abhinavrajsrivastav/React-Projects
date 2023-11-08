@@ -1,7 +1,7 @@
 const Songs = [
     {
         id: 0,
-        SongName: "Song 1",
+        SongName: "Besabriyaan",
         artist: "Arman Malik",
         image: "./imges/besab.jpg",
         src: "./musics/besabriya.mp3"
@@ -57,75 +57,33 @@ const Songs = [
         src: "./musics/bol_do_na.mp3"
     },
     {
-         id: 7,
-        SongName: "Bol Do Na Zara",
+         id: 8,
+        SongName: "2 Steps",
         artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
+        image: "./imges/2step.jpeg",
+        src: "./musics/2step.mp3"
     },
     {
-         id: 7,
-        SongName: "Bol Do Na Zara",
+         id: 9,
+        SongName: "Echo",
         artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
+        image: "./imges/arman1.jpg",
+        src: "./musics/Echo.mp3"
     },
     {
-         id: 7,
-        SongName: "Bol Do Na Zara",
+         id: 8,
+        SongName: "How many",
         artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
+        image: "./imges/how_many.jpg",
+        src: "./musics/how_many.mp3"
     },
     {
-         id: 7,
-        SongName: "Bol Do Na Zara",
+         id: 9,
+        SongName: "Tu Jaruri",
         artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
+        image: "./imges/arman1.jpg",
+        src: "./musics/tu_jaruri.mp3"
     },
-    {
-         id: 7,
-        SongName: "Bol Do Na Zara",
-        artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
-    },
-    {
-         id: 7,
-        SongName: "Bol Do Na Zara",
-        artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
-    },
-    {
-         id: 7,
-        SongName: "Bol Do Na Zara",
-        artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
-    },
-    {
-         id: 7,
-        SongName: "Bol Do Na Zara",
-        artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
-    },
-    {
-         id: 7,
-        SongName: "Bol Do Na Zara",
-        artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
-    },
-    {
-         id: 7,
-        SongName: "Bol Do Na Zara",
-        artist: "Aramn Malik",
-        image: "./imges/bol_do.jpg",
-        src: "./musics/bol_do_na.mp3"
-    }
 ]
 
 export default Songs;

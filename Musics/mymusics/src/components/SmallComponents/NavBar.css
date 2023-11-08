@@ -4,7 +4,7 @@
     justify-content: end;
     width: auto;
     height: 12vh;
-    background-color: #164863;
+    /* background-color: #164863; */
     }
 
     .navBar button{
@@ -25,7 +25,7 @@
         transform: scale(1.1);
         }
 
-@media(max-width: 1160px) and (min-width: 375px){
+@media(max-width: 624px) and (min-width: 300px){
     .navBar button{
         width: 50px;
         height: 20px;
