@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* menu class */
 .menu_{
     display: flex;
     flex-direction: row;
@@ -7,6 +9,7 @@
     gap: 1rem;
 }
 
+/* .menu_ img class */
 .menu_ img{
     width: 2rem;
     height: auto;
@@ -14,6 +17,7 @@
     cursor: pointer;
 }
 
+/* .menu_ h3 class */
 .menu_ h3{
     color: white;
     font-size: 1rem;

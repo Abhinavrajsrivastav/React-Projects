@@ -2,7 +2,7 @@ import React from 'react'
 import './SideBar.css';
 import Meenu from './SmallComponents/Meenu';
 
-
+//SideBar elements data...
 const menu = [
     {
         img: './imges/home (2).png',
@@ -24,10 +24,11 @@ const menu = [
 
 export const SideBar = () => {
   return (
+  //here we have returned 3 information...
     <div className="sideBar">
           <div className="brand">
-             <img src='./imges/Spotify_App_Logo.svg.png'></img>
-             <h3>Sportify</h3>
+             <img src='./imges/logo_.png'></img>
+             <h3>New World</h3>
           </div>
 
           <div className="mainu">
@@ -38,7 +39,7 @@ export const SideBar = () => {
           </div>
 
           <div className="imgUpdate">
-            <img src="./imges/ai4.png"></img>
+            <img src="./imges/ai5.png"></img>
           </div>
            
          </div>

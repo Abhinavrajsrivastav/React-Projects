@@ -1,29 +1,39 @@
+// Date: 2021/8/29
+
+//imported modules...
 import './Mysics.css';
 import React, { useState, useRef } from 'react';
 let audio = new Audio();
 
-function Mysics(data) {
+//Mysics component...
+  function Mysics(data) {
   const [isPlaying, setIsPlaying] = useState(false);
-  let prevSong = new Audio();
+
+//playSong function...
+//3 tasks are need to be performed in this function...but only one have done...
   const playSong = () => {
-   
-    if(audio.duration > 0 && !audio.paused){
-          audio.pause();
-          audio.src = data.src;
-          audio.play()
- 
-          console.log("hello");
-    }
-    else{
+    if (isPlaying) {
+      audio.pause();
+    } else {
       audio.src = data.src;
       audio.play();
-
     }
+
+    setIsPlaying(!isPlaying);
   };
 
+//return statement...
   return (
     <div className="Mysics">
-      <img src={data.img} className="song-img" onClick={playSong} alt="Play" />
+      <div>
+        <img src={data.img} className="song-img" alt="Play" />
+        <img
+          src={data.btn}
+          className="play-icon"
+          onClick={playSong}
+          alt="Play Icon"
+        />
+      </div>
       <div>
         <h1>{data.songName}</h1>
       </div>
@@ -31,4 +41,5 @@ function Mysics(data) {
   );
 }
 
+//export statement...
 export default Mysics;

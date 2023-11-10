@@ -1,3 +1,10 @@
+
+
+
+/* CSS for desktop size screen */
+
+/* ------------------------- */
+
 .Mysics-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -13,24 +20,21 @@
     grid-row-gap: 5px;
 }
 
-@media(max-width: 1160px) and (min-width: 375px){
-    .Mysics-item{
-        grid-template-columns: repeat(2, 1fr);
-        align-content: start;
-        padding: 0;
-        /* margin-left: 10%; */
-        width: 95%;
-        max-height: 150vh;
-    }
-}
+/* ------------------- */
 
-@media(max-width: 624px) and (min-width: 300px){
-     .Mysics-item{
+/* CSS for mobile screen */
+
+/* ------------------------- */
+
+@media (max-width: 1160px) and (min-width: 375px),
+       (max-width: 630px) and (min-width: 300px) {
+    .Mysics-item {
         grid-template-columns: repeat(2, 1fr);
         align-content: start;
         padding: 0;
-        /* margin-left: 10%; */
         width: 100%;
         max-height: 150vh;
     }
 }
+
+/* ------------------- */
