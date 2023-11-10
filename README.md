@@ -21,7 +21,7 @@ Welcome to my collection of small React-based projects! This repository contains
 
 <h3 id="projects">Source Code</h3>
 
-<p>1.Musics app</p><br>
+<p>1.New World - Musics Player</p><br>
 <p>2.Increment Using use state</p>
 
 **Source Code:** 
