@@ -7,7 +7,7 @@
 
 .Mysics-item {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-content: start;
     font-size: 1.0rem;
     font-weight: bold;
@@ -29,7 +29,7 @@
 @media (max-width: 1160px) and (min-width: 375px),
        (max-width: 630px) and (min-width: 300px) {
     .Mysics-item {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         align-content: start;
         padding: 0;
         width: 100%;

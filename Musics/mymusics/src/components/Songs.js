@@ -103,7 +103,7 @@ const Songs = [
         pauseBtn: "./imges/stop.png"
     },
     {
-         id: 8,
+         id: 10,
         SongName: "How many",
         artist: "Aramn Malik",
         image: "./imges/how_many.jpg",
@@ -113,7 +113,7 @@ const Songs = [
         pauseBtn: "./imges/stop.png"
     },
     {
-         id: 9,
+         id: 11,
         SongName: "Tu Jaruri",
         artist: "Aramn Malik",
         image: "./imges/arman1.jpg",
