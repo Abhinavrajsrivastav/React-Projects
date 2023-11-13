@@ -30,10 +30,10 @@ git clone https://github.com/Abhinavrajsrivastav/React-Projects.git
 <p>Navigate to the project directory:</p>
 cd React-Projects/Musics
 
-<p>Contributing:</p>
+<h1>Contributing:</h1>
 If you have any ideas, bug fixes, or improvements for any of the projects in this repository, feel free to contribute! Follow these steps:
 
-<h2>Fork the repository:</h2>
+<h3>Fork the repository:</h3>
 <p>Create a new branch for your feature or bug fix:</p>
 git checkout -b feature/your-feature
 
