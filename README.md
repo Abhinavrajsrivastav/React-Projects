@@ -24,6 +24,7 @@ Learn the fundamentals of React's state management by building a simple incremen
 If you want to explore these projects on your local machine, follow these steps:
 
 <h2>Clone this repository:</h2>
+
 <p>Do this 👇</p>
 git clone https://github.com/Abhinavrajsrivastav/React-Projects.git
 
@@ -34,6 +35,7 @@ cd React-Projects/Musics
 If you have any ideas, bug fixes, or improvements for any of the projects in this repository, feel free to contribute! Follow these steps:
 
 <h3>Fork the repository:</h3>
+
 <p>Create a new branch for your feature or bug fix:</p>
 git checkout -b feature/your-feature
 
