@@ -24,11 +24,10 @@ Learn the fundamentals of React's state management by building a simple incremen
 If you want to explore these projects on your local machine, follow these steps:
 
 <h2>Clone this repository:</h2>
-
 <p>Do this 👇</p>
 git clone https://github.com/Abhinavrajsrivastav/React-Projects.git
 
-<p>Navigate to the project directory:</p>
+<br><p>Navigate to the project directory:</p>
 cd React-Projects/Musics
 
 <h1>Contributing:</h1>
