@@ -3,7 +3,8 @@ Welcome to my collection of small and exciting React-based projects! 🚀 This r
 <div align="center">
   <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="React Logo" style="height: 200px; width: 200px;">
 </div>
-Table of Contents
+
+<h1>Table of Contents:</h1>
 
 Projects
 Getting Started
@@ -17,31 +18,29 @@ Dive into the world of music with this sleek and intuitive music player built us
 2. Increment Using useState 🔢
 Learn the fundamentals of React's state management by building a simple increment counter. This project demonstrates the use of the useState hook for handling state in a React component.
 
-Source Code: New World Music Player
+<h1>Source Code:</h1> https://github.com/Abhinavrajsrivastav/React-Projects.git
 
-Getting Started: 
-
+<h1>Getting Started:</h1>
 If you want to explore these projects on your local machine, follow these steps:
 
-Clone this repository: 
+<h2>Clone this repository:</h2>
+<p>Do this 👇</p>
 git clone https://github.com/Abhinavrajsrivastav/React-Projects.git
 
-Navigate to the project directory:
-cd react-projects-showcase
+<p>Navigate to the project directory:</p>
+cd React-Projects/Musics
 
-
-Contributing
+<p>Contributing:</p>
 If you have any ideas, bug fixes, or improvements for any of the projects in this repository, feel free to contribute! Follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix:
-
+<h2>Fork the repository:</h2>
+<p>Create a new branch for your feature or bug fix:</p>
 git checkout -b feature/your-feature
 
-Make your changes and commit them:
+<p>Make your changes and commit them:</p>
 git commit -m 'Add your feature'
 
-Push your changes to your fork:
+<p>Push your changes to your fork:</p>
 git push origin feature/your-feature
 
 Create a pull request to the main repository 🚀.
