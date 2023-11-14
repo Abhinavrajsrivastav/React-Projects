@@ -18,7 +18,7 @@ export default function Musics_component() {
 //Map function is used to return multiple information...
     <div className="Mysics-item">
       {Songs.map((song) => (
-        <Mysics
+        <Mysics 
           index={song.id}
           songName={song.SongName}
           Artist={song.artist}
