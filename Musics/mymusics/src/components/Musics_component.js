@@ -15,6 +15,7 @@ export default function Musics_component() {
   return (
 
 //in this component, we have returned 1 information...
+//Map function is used to return multiple information...
     <div className="Mysics-item">
       {Songs.map((song) => (
         <Mysics
@@ -26,6 +27,7 @@ export default function Musics_component() {
           btn={song.btn}
           playBtn={song.playBtn}
           pauseBtn={song.pauseBtn}
+          array={Songs}
         />
       ))}
     </div>

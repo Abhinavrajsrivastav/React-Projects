@@ -1,5 +1,6 @@
-
+import Mysics from './Mysics';
 //song component/array containing data of songs...
+
 const Songs = [
     {
         id: 0,
