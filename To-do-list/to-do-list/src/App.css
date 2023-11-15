@@ -1,0 +1,15 @@
+.cardHolder{
+    display: flex;
+    flex-direction: column;
+}
+
+.savedCard{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
