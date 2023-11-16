@@ -1,6 +1,6 @@
 # To-Do List App
 
-![App Screenshot](screenshot.png)
+![App Screenshot](./public/imges/screeShoot.png)
 
 ## Description
 
@@ -45,8 +45,7 @@ Delete tasks.
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 
 <h1>Fork the project.</h1>
-
-Create a new branch: git checkout -b feature/new-feature.
-Commit your changes: git commit -m 'Add new feature'.
-Push to the branch: git push origin feature/new-feature.
-Open a pull
+<p>Create a new branch: git checkout -b feature/new-feature.</p>
+<p>Commit your changes: git commit -m 'Add new feature'.</p>
+<p>Push to the branch: git push origin feature/new-feature.</p>
+<p>Open a pull</p>
