@@ -1,8 +1,11 @@
 body{
-    background-color: #000000;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    height: 100vh;
-    margin: 0;
+  background-image: url(./imges/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  transition: background 0.5s ease; /* Adding transition effect */
 }
+
+

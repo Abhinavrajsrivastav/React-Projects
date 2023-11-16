@@ -1,10 +1,22 @@
-import {React, ReactDOM} from 'react';
-import './SavedCard.css';
+//imported modules...
 
-const SavedCard = () => {
-    return (
-       <div class="custom-input" contenteditable="true" data-placeholder="Type something..."></div>
-    );
-    }
+import React, { useState } from 'react';
+import InputCard from './InputCard';
+
+//SvaedCard function...
+const SavedCard = (props) => {
+  const [array, setArray] = useState([]);
+
+  const updateArray = (card) => {
+    console.log(card);
+  };
+
+  //return statement...
+  return (
+    <div>
+      
+    </div>
+  );
+};
 
 export default SavedCard;

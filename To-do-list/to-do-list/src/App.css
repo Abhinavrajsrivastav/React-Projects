@@ -11,5 +11,26 @@
     margin: 1rem;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+
+.navbar {
+ display: flex;
+ justify-content: start;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.navbar-logo {
+  width: 80px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 10px; /* Add margin for spacing */
+  border-radius: 20px;
+}
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 15px;
 }

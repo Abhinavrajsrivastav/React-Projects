@@ -16,4 +16,6 @@ const Sample = [
         title: "Wake up",
         about: "I have to wake up at 2 am and make a hot tea for me."
     }
-]
+];
+
+export default Sample;

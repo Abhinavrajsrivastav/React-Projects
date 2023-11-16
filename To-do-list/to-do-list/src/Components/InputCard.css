@@ -1,20 +1,21 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 20px;
   height: auto;
   margin-top: 50px;
+  margin-left: 30px;
 }
 
 .enterText {
-  color: blue;
+  color: rgb(255, 255, 255);
   height: 20vh;
-  width: 30%;
+  width: 20%;
   font-size: 20px;
   border: 1px solid #ccc;
   padding: 2px;
-    /* You can add more styles as needed */ 
+  border-radius: 10px; 
   &:empty:before {
     content: 'Enter some text here...';
     color: #999; 
