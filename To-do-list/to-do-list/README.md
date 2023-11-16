@@ -1,6 +1,6 @@
 # To-Do List App
 
-![App Screenshot](./public/imges/screeShoot.png)
+<img src="./public/imges/screeShoot.png"></img>
 
 ## Description
 
