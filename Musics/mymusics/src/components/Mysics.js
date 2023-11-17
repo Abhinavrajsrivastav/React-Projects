@@ -17,6 +17,8 @@ let index = 0;
 //playSong function...
 //3 tasks are need to be performed in this function...but only one have done...
   const playSong = () => {
+
+  data.musicsToMc(data.img,data.songName);  
   if (isPlaying) {
     setMusicsBtn(data.playBtn);
     audio.pause();

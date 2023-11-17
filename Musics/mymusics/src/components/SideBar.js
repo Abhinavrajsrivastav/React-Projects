@@ -1,4 +1,4 @@
-import React from 'react'
+import { React, useState } from 'react'
 import './SideBar.css';
 import Meenu from './SmallComponents/Meenu';
 
@@ -22,7 +22,12 @@ const menu = [
     }
 ]
 
-export const SideBar = () => {
+
+export const SideBar = (props) => {
+var Img = props.songImg;
+var Song = props.songName;
+
+
   return (
   //here we have returned 3 information...
     <div className="sideBar">
@@ -39,7 +44,10 @@ export const SideBar = () => {
           </div>
 
           <div className="imgUpdate">
-            <img src="./imges/ai5.png"></img>
+            <img src={Img}></img>
+            <audio play>
+             <source src={Song} type="audio/mp3"></source>
+            </audio>
           </div>
            
          </div>

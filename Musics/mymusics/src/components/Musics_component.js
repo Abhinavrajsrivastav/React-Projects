@@ -8,9 +8,11 @@ import Songs from '../components/Songs';
 
 
 //Musics_component function...
-export default function Musics_component() {
+export default function Musics_component(props) {
 //clickedBtn use state...
-  
+ function muToMc(songImg,songName){
+   props.musicsComponentToApp(songImg,songName);
+  }
 
   return (
 
@@ -28,6 +30,7 @@ export default function Musics_component() {
           playBtn={song.playBtn}
           pauseBtn={song.pauseBtn}
           array={Songs}
+          musicsToMc = {muToMc}
         />
       ))}
     </div>

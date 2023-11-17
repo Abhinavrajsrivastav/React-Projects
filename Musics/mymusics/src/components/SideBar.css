@@ -51,12 +51,12 @@
      .imgUpdate{
         border-radius: 15px;
         width: 37vh;
-        height: auto;
+        height: 80vh;
         scale: .9;
         background-color: rgb(0, 0, 0, 0.5);
         padding: 10%;
         scale: .8;
-        justify-content: start;
+        justify-content: center;
         margin-left: -5%;
      }
 
