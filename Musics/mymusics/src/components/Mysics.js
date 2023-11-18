@@ -7,6 +7,7 @@ import Songs from "./Songs";
 
 let audio = new Audio();
 let index = 0;
+let newIndex = 0;
 
 //Mysics component...
   function Mysics(data) {
@@ -22,14 +23,13 @@ let index = 0;
   if (isPlaying) {
     setMusicsBtn(data.playBtn);
     audio.pause();
-    // audio.play();
-
+    
   }
    else {
-    index = data.index;
     audio.src = data.src;
     audio.play();
     setMusicsBtn(data.pauseBtn);
+    index = data.index;
   }
 
   setIsPlaying(!isPlaying);
