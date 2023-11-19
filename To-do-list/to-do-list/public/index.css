@@ -3,9 +3,11 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   height: 100vh;
   margin: 0;
-  transition: background 0.5s ease; /* Adding transition effect */
+  /* padding-left: 5%; */
+  transition: .8s ease-in-out all;
 }
 
 

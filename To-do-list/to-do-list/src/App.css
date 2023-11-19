@@ -1,19 +1,29 @@
-.cardHolder{
-    display: flex;
-    flex-direction: column;
+.cardsHolder{
+    max-width: 50%;
+    padding-right: 2%;
 }
 
-.savedCard{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
+.savedCard {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
     margin: 1rem;
     padding: 1rem;
     border-radius: 5px;
-
+    
 }
 
+.custom-input{
+  background-image: url('../public/imges/loki.jpg');
+  color: black;
+  font-weight: bold;
+}
+
+/* .custom-input:hover{
+   transform: scale(1.1);
+} */
 .navbar {
  display: flex;
  justify-content: start;

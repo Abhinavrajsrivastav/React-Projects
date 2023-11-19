@@ -33,14 +33,14 @@
     transform: scale(0.8);
 }
 
-.navBar button:hover {
+/* .navBar button:hover {
     transform: scale(1);
-    color: rgb(17, 80, 135)/* Change text color on hover */
+    color: rgb(17, 80, 135)
 }
 
 .navBar button:active {
-    background-color: #004cff; /* Change background color on click */
-}
+    background-color: #004cff; 
+} */
 /* ------------------------------------------ */
 
 

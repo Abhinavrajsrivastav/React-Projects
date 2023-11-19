@@ -30,11 +30,13 @@ const InputCard = (props) => {
       <div className="enterText" contentEditable="true" onInput={handleContentChange} >
        {/* {editableContent}  */}
       </div>
-      <div className="circular-button" data-tooltip="Add something..." onClick={message}>
+      <div className="controlBtn">
+        <div className="circular-button" data-tooltip="Add something..." onClick={message}>
         +
       </div>
       <div className="circular-button" data-tooltip="Clear All..." onClick={deleteAll}>
         -
+      </div>
       </div>
     </div>
   );

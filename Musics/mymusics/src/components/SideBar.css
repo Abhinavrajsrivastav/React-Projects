@@ -27,6 +27,12 @@
     border-radius: 60%;
     margin-top: 0px;
     cursor: pointer;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.brand img:hover{
+    transform: rotate3d(0, 1, 0, 360deg);
+    
 }
 .brand h3 {
     color: white;

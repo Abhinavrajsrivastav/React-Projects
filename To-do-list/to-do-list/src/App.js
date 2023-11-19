@@ -47,6 +47,7 @@ if (!alreadyExists) {
       {/* Main Content */}
       <div className="cardsHolder">
         <InputCard updateArr={updateArray} deleteMessage={resetApp}/>
+      </div>
         <div className="savedCard">
           {array.map((card) => (
             <div key={card.index} className="custom-input" contentEditable="false">
@@ -54,7 +55,6 @@ if (!alreadyExists) {
             </div>
           ))}
         </div>
-      </div>
     </div>
   );
 };
