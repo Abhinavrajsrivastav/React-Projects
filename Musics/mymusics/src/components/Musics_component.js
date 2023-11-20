@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import './Musics_component.css';
 import Mysics from './Mysics';
-import Songs from '../components/Songs';
+import Songs from '../components/Songs' ;
 
 
 
