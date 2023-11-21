@@ -3,11 +3,14 @@ import './MainBox.css';
 import NavBar from './NavBar';
 import Content from './Content';
 
-const MainBox = () => {
+const MainBox = ({
+   setLibrary,
+   Library
+}) => {
   return <>
-     <div className="MainBox">
-        <NavBar />
-        <Content />
+     <div className={`MainBox${Library?"-Open":""}`}>
+        <NavBar setLibrary={setLibrary} Library={Library}/>
+        <Content setLibrary={setLibrary} Library={Library} />
      </div>
       </>
 }

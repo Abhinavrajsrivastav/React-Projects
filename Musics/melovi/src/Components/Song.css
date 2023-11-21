@@ -1,0 +1,50 @@
+.Songs {
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 2rem; /* Adjust padding as needed */
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+.Songs img {
+  height: 5rem; /* Let the browser maintain the aspect ratio */
+  max-height: 100%; /* Ensure the image doesn't exceed the height of the container */
+  width: 5rem; /* Set the width as a percentage of the container */
+  object-fit: cover; /* This ensures the image maintains its aspect ratio and covers the space */
+  margin-right: 10px;
+}
+
+.aboutSong {
+  padding-left: 1rem;
+}
+
+.aboutSong h3 {
+  font-size: 1rem;
+}
+
+.aboutSong h4 {
+  font-size: 0.7rem;
+}
+
+.Songs:hover {
+  background-color: rgb(223, 215, 255);
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}

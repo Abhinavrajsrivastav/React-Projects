@@ -1,0 +1,52 @@
+/* Content.css */
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-left: 0; /* Adjust as needed */
+  transition: transform .5s ease-in-out, opacity 0.5s ease;/* Smooth transition when shifting content */
+}
+
+.content-Box {
+  display: flex;
+  flex: 1 1 auto;
+  max-width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  height: 65vh;
+  width: 25%;
+  background-color: rgba(89, 54, 2, 0.861);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: transform .5s ease-in-out, opacity 0.5s ease;
+}
+
+.content-Box img {
+  width: 66%;
+  height: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.content-Box h3 {
+  font-size: 1.5rem; /* Changed from h1 to h3 for consistency with the JSX */
+  margin: 0 auto;
+  padding-top: 5%;
+  color: white;
+}
+
+audio {
+  width: 100%;
+  margin-top: 20px;
+}
+
+audio::-webkit-media-controls-rewind-button,
+audio::-webkit-media-controls-skip-forward-button {
+  background-color: #3498db;
+  border-radius: 50%;
+  color: #fff;
+}
+
+/* ... Add more styles as needed ... */

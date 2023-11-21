@@ -1,11 +1,26 @@
 import './SideBar.css';
+import Song from './Song';
+import NavBar from './NavBar';
 
-const SideBar = ()=>{
+const SideBar = ({
+    Library,
+    setLibrary,
+})=>{
     return <>
-        <div className="SideBar">
-            <h1>SideBar</h1>
+        <div className={`SideBar${Library ? "-Open" : ""}`}>
+        <NavBar setLibrary={setLibrary} Library={Library}/>
+         <Song />
+         <Song />
+         <Song />
+         <Song />
+         <Song />
+         <Song />
+         <Song />
+         <Song />
+         <Song />
+         <Song />
         </div>
-    </>
+</>
 }
 
 export default SideBar; 

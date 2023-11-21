@@ -1,4 +1,46 @@
-.SideBar{
-    height: 100vh;
-    width: auto;
+
+
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 17rem;
+  height: 100%;
+  background: brown;
+  /* box-shadow: 2px 2px 50px rgb(197, 197, 197); */
+  overflow: scroll;
+  transform: translateX(-100%);
+  transition: transform .5s ease-in-out, opacity .5s ease;
+  opacity: 0;
+  z-index: 0; /* Set a lower z-index */
+  
 }
+
+.SideBar-Open {
+  transform: translateX(0);
+  opacity: 1;
+  justify-content: center;
+  height: 100vh;
+  width: 20rem;
+  background-color: brown;
+  transition: transform .5s ease-in-out, opacity 0.5s ease;
+  z-index: 1; /* Set a higher z-index */
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 768px) {
+  .SideBar {
+    width: 100%;
+    
+  }
+  .SideBar-Open {
+    width: 100%;
+    z-index: 999;
+  }
+}
+
+

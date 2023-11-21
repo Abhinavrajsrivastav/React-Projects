@@ -6,13 +6,34 @@
     /* text-align: center; */
     color: white;
     width: 100%;
-    color: yellow;
+    transition: transform 1s ease, opacity 0.5s ease;
+    margin-top: 2rem;
+    padding: 5px;
+    height: 5vh;
+    width: auto;
+    /* margin-right: 25rem; */
 }
 
-.navBar h1{
-    position: relative;
-    right: 200px;
-    top: 15px;
-    background-color: blue;
+.navBar button{
+    /* padding: 13px; */
+    background-color: rgb(119, 119, 180);
     cursor: pointer;
+    margin-right: 10%;
+    border-radius: 5px;
+}
+
+.navBar button:hover{
+    background-color: #a59d9d;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar button {
+    background-color: rgb(119, 119, 180);
+    cursor: pointer;
+    margin-right: 10%;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+
+  /* Adjust the z-index for the .SideBar-Open */
 }
