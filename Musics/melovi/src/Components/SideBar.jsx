@@ -8,7 +8,7 @@ const SideBar = ({
 })=>{
     return <>
         <div className={`SideBar${Library ? "-Open" : ""}`}>
-        <NavBar setLibrary={setLibrary} Library={Library}/>
+         <NavBar setLibrary={setLibrary} Library={Library}/>
          <Song />
          <Song />
          <Song />
