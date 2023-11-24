@@ -1,20 +1,14 @@
 import React from 'react';
 import './Content.css';
+import SideBar from './SideBar';
+import SongCard from './SongCard';
 
-const Content = ({
-  setLibrary,
-  Library
-}) => {
+const Content = () => {
   return <>
-   <div className="content">
-    <div className="content-Box">
-      <img src={'./imges/ai.jpg'} alt="" />
-      <h3>Artificial Intelligence</h3>
-      <audio controls>
-        <source src ={'./imges/BOL_DO_NA_ZARA_Full_Video_Song_AZ_(getmp3.pro).mp3'} type="audio/mp3" />
-      </audio>
-   </div>
-   </div>
+    <div className="content">
+        <SideBar />
+        <SongCard/>
+    </div>
   </>
 }
 

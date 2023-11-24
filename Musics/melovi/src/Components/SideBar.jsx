@@ -1,26 +1,14 @@
+import React, {useState} from 'react';
 import './SideBar.css';
-import Song from './Song';
-import NavBar from './NavBar';
 
-const SideBar = ({
-    Library,
-    setLibrary,
-})=>{
-    return <>
-        <div className={`SideBar${Library ? "-Open" : ""}`}>
-         <NavBar setLibrary={setLibrary} Library={Library}/>
-         <Song />
-         <Song />
-         <Song />
-         <Song />
-         <Song />
-         <Song />
-         <Song />
-         <Song />
-         <Song />
-         <Song />
-        </div>
-</>
+const SideBar = () => {
+    const [Library, SetLibrary] = useState(false);
+  return <>
+     <div className={`Library${Library ? "-open" : ""}`}>
+     <button onClick={()=>SetLibrary(!Library)} className='btn'>Library</button>
+     <h1>Hello</h1>
+     </div>
+  </>
 }
 
-export default SideBar; 
+export default SideBar;

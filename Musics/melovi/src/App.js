@@ -1,16 +1,13 @@
-import React, {useState} from 'react';
-import SideBar from './Components/SideBar';
+import React from 'react';
 import './App.css';
-import MainBox from'./Components/MainBox';
+import Content from './Components/Content';
 
 const App = () => {
-
-  const [Library,setLibrary] = useState(false);
   return<>
-    <div className="Container">
-    <SideBar Library={Library} setLibrary={setLibrary}/>
-    <MainBox setLibrary={setLibrary} Library={Library}/>
+    <div className="app">
+        <Content />
     </div>
-</>
+  </>
 }
+
 export default App;
