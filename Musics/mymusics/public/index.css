@@ -1,0 +1,20 @@
+body {
+    background-image: url("./imges/ai5.png");
+    opacity: .8;
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    
+    /* display: flex; */
+    /* height: 100vh; */
+}
+
+@media (max-width: 1160px) and (min-width: 300px) {
+    body{
+        justify-content: center;
+    }
+}

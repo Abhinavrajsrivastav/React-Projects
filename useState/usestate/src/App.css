@@ -1,0 +1,27 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    background-color: #282c34;
+    overflow-x: hidden; /* Add this line to hide horizontal overflow */
+}
+
+.Container h2{
+    font-size: 20rem;
+    margin-bottom: 2rem;
+    color: #b3b4b7;   
+}
+
+.Container button{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #61dafb;
+    color: #282c34;
+    cursor: pointer;
+}
+

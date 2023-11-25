@@ -1,0 +1,81 @@
+
+.container {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 30px;
+  max-width: 400px;
+}
+
+.enterText {
+  display: flex;
+  max-width: 300px;
+  flex: 1 1 auto;
+  color: rgb(255, 255, 255);
+  min-height: 100px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  border-radius: 10px; 
+  &:empty:before {
+    content: 'Enter some text here...';
+    color: #999; 
+  }
+}
+
+.controlBtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.circular-button {
+    width: 30px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.circular-button:hover {
+  background-color: aqua;
+  transform: scale(1.1);
+}
+
+.circular-button::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -40px;
+  left: 120%;
+  font-size: 10px;
+  transform: translateX(-10%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.circular-button:hover::before {
+  opacity: 1;
+}
+
+
+
+

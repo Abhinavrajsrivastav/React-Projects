@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+/* css for desktop size screen */
+
+h1{
+    color: rgb(245, 241, 241);
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Mysics{
+    width: 181px;
+    height: 201px;
+    background-color: rgb(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    transition: -1.3s ease-in-out;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.Mysics:hover{
+  opacity: 1.5;
+  background-color: rgba(46, 20, 50, 0.7);
+}
+
+
+.Mysics .song-img {
+  height: 164px;
+  width: 173px;
+  border-radius: 12px;
+  position: relative;
+  left: 4px;
+}
+
+.Mysics {
+    position: relative;
+    display: inline-block; /* Ensures the container only takes up as much width as necessary */
+}
+
+.Mysics .play-icon {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 80px;
+    right: 37px;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20%); /* Move the icon below the container */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.Mysics:hover .play-icon {
+    opacity: 1; /* Visible on hover */
+    transform: translateY(0); /* Move the icon to its original position */
+}
+
+
+
+.Mysics h1 {
+  padding-top: 2px;
+  padding-left: 6px;
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+}
+
+/* css for mobile size screen */
+
+@media (max-width: 1160px) and (min-width: 300px) {
+    .Mysics {
+        height: 150px;
+        width: 123px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0; /* Changed gap value to a positive value */
+        padding: 10px; /* Added padding for better spacing on smaller screens */
+        position: relative;
+        left: 10;
+        border-radius: 10px; /* Slightly reduced border radius for a cleaner look */
+    }
+
+    .Mysics .song-img {
+    height: 115px;
+    width: 123px;
+    border-radius: 10px;
+    margin: 8px 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    top: 10px;
+    }
+
+    .Mysics h1 {
+        margin-bottom: 8px; /* Reduced margin for better spacing */
+        padding-left: 0; /* Removed left padding */
+        font-size: 1rem; /* Adjusted font size for better readability */
+    }
+
+    .Mysics .play-icon {
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        bottom: 42px; /* Adjusted bottom position for better alignment */
+        right: 17px; /* Adjusted right position for better alignment */
+    }
+  
+    .Mysics p {
+        padding: 1px;
+        font-size: 0.8rem;
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
+
+

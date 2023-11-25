@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+    width: 20%;
+    height: 100vh;
+    /* background-color: rgb(0, 0, 0); */
+    }
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    border-radius: 10px;
+    margin: 5%;
+    /* background-color: #395f79b5; */
+}
+
+.brand img{
+    width: 80px;
+    height: 60px;
+    border-radius: 60%;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.brand img:hover{
+    transform: rotate3d(0, 1, 0, 360deg);
+    
+}
+.brand h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.mainu{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 33vh;
+    height: 30vh;
+    background-color: rgb(0, 0, 0, 0.5);   
+    border-radius: 25px;
+    margin: 5%;
+    padding: 5%;
+    }
+
+     .imgUpdate{
+        border-radius: 15px;
+        width: 37vh;
+        height: 80vh;
+        scale: .9;
+        background-color: rgb(0, 0, 0, 0.5);
+        padding: 10%;
+        scale: .8;
+        justify-content: center;
+        margin-left: -5%;
+     }
+
+    .imgUpdate img{
+        width: 36vh;
+        height: 35vh;
+        justify-content: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+
+
+/* css for mobile screen  hidden   */
+    @media (max-width: 1160px) and (min-width: 275px) {
+  .sideBar {
+    visibility: hidden;
+    display: none;
+  }
+}

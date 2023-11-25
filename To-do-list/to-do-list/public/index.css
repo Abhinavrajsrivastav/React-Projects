@@ -1,0 +1,13 @@
+body{
+  background-image: url(./imges/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  /* padding-left: 5%; */
+  transition: .8s ease-in-out all;
+}
+
+

@@ -1,0 +1,40 @@
+
+
+
+/* CSS for desktop size screen */
+
+/* ------------------------- */
+
+.Mysics-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: start;
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 2%;
+    cursor: pointer;
+    width: auto;
+    max-height: 100vh; /* Set a maximum height to limit scrolling */
+    overflow-y: auto; /* Add vertical scrolling when content overflows */
+    grid-row-gap: 5px;
+}
+
+/* ------------------- */
+
+/* CSS for mobile screen */
+
+/* ------------------------- */
+
+@media (max-width: 1160px) and (min-width: 375px),
+       (max-width: 630px) and (min-width: 300px) {
+    .Mysics-item {
+        grid-template-columns: repeat(3, 1fr);
+        align-content: start;
+        padding: 0;
+        width: 100%;
+        max-height: 150vh;
+    }
+}
+
+/* ------------------- */

@@ -1,0 +1,46 @@
+.cardsHolder{
+    max-width: 50%;
+    padding-right: 2%;
+}
+
+.savedCard {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    
+}
+
+.custom-input{
+  background-image: url('../public/imges/loki.jpg');
+  color: black;
+  font-weight: bold;
+}
+
+/* .custom-input:hover{
+   transform: scale(1.1);
+} */
+.navbar {
+ display: flex;
+ justify-content: start;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.navbar-logo {
+  width: 80px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 10px; /* Add margin for spacing */
+  border-radius: 20px;
+}
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 15px;
+}
