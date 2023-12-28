@@ -1,4 +1,4 @@
-# React Projects Showcase 🚀
+# React Projects 🍀
 
 Welcome to my collection of small and exciting React-based projects! This repository is a showcase of diverse mini-projects and demos that highlight various aspects of React development.
 
