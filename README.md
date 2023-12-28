@@ -15,7 +15,7 @@ Welcome to my collection of small and exciting React-based projects! This reposi
 
 ## Projects
 
-### 1. hinlish - Music Player App 🎵
+### 1. hindlish - Music Player App 🎵
 Dive into the world of music with this sleek and intuitive music player built using React. Explore a seamless audio experience and discover your favorite tunes in style.
 - **Folder:** `/Musics/hindlish`
 
