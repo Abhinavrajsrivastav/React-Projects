@@ -1,3 +1,5 @@
-body{
-    background-color: #3eba6a;
+body {
+    /* background-color: #000000;  */
+    background: url('./images/bag.png') no-repeat center center fixed; /* Set background image */
+    background-size: cover; /* Adjust as needed */
 }
