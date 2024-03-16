@@ -1,7 +1,5 @@
 # To-Do List App
 
-<img src="./public/imges/screeShoot.png"></img>
-
 ## Description
 
 This is a simple to-do list app built with React. It allows users to create, update, and delete tasks.
